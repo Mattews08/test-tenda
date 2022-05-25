@@ -37,9 +37,9 @@ export default function Home({ datas }: any) {
             <NewSection>
                 <Title/>
                 {/* eslint-disable-next-line react/prop-types */}
-                <Form estado={datas.map((orgs: any, index: number) => (
-                    <option key={index} value={orgs.estado}>
-                        {orgs.estado}
+                <Form estado={datas.map((est: any, index: number) => (
+                    <option key={index} value={est.estado}>
+                        {est.estado}
                     </option>
                 ))} />
             </NewSection>
